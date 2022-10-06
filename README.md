@@ -56,14 +56,14 @@ When invoked it should return a list of results from throwing multiple dices
 ### Level up 3.1
 
 Create a class responsible for printing details about humans.
-Example class name - HumanConsoleWriter
+Example class name "HumanConsoleWriter"
 Example methods: 
     - writeNames(List<Human> list); // Write all names
     - writeAll(List<Human> list);  // Write all details about all humans as in step 4 above.
   
 ### Level up 3.2
 Create a class responsible for relating people together by either address or phone numbers
-Example class name - HumanAgency
+Example class name "HumanAgency"
 Example methods
     - findHumansOnAddress(String address); // Return a list of people at the address
     - findHumansWithPhoneNumber(String phoneNumber); // Return a list of people with the same phone number
