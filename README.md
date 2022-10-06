@@ -60,8 +60,8 @@ Example class name "HumanConsoleWriter".
 
 *Example methods*
 ```java
-writeNames(List<Human> list); //Write all names
-writeAll(List<Human> list); //Write all details about all humans as in step 4 above.
+writeNames(List<Human> humanList); //Print all the names in the argument humanList
+writeAll(List<Human> humanList); //Write all details about all humans as in step 4 above.
 ```
     
 ### Level up 3.2
