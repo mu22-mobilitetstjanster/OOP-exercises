@@ -29,11 +29,19 @@ In ConsoleHandler implement a method called "askForList" which lets you keep add
 
 ## Exercise 2
 
-Create a class called Dice and add following methods
+Create a class called Dice and add following methods. Size represents the maximum numbers of dice eyes.
 
 1. setMaxSize(int maxSize);
 2. setMinSize(int minSize);
 3. throwDice(int size); // Should be limited by values from min and max size
+
+```java
+Dice dice = new Dice();
+dice.setMinSize(5);
+dice.setMaxSize(10);
+
+dice.throwDice(15); // Should be maximum 10
+```
 
 ## Level up 2.1
 
