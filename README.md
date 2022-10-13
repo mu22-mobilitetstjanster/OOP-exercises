@@ -68,8 +68,8 @@ Example class name "HumanConsoleWriter".
 
 *Example methods*
 ```java
-writeNames(List<Human> humanList); //Print all the names in the argument humanList
-writeAll(List<Human> humanList); //Write all details about all humans as in step 4 above.
+void writeNames(List<Human> humanList); //Print all the names in the argument humanList
+void writeAll(List<Human> humanList); //Write all details about all humans as in step 4 above.
 ```
     
 ### Level up 3.2
@@ -79,8 +79,8 @@ Example class name "HumanAgency"
 
 *Example methods*
 ```java
-findHumansOnAddress(String address); // Return a list of people at the address
-findHumansWithPhoneNumber(String phoneNumber); // Return a list of people with the same phone number
+List<Human> findHumansOnAddress(String address); // Return a list of people at the address
+List<Human> findHumansWithPhoneNumber(String phoneNumber); // Return a list of people with the same phone number
 ```
 
 Extend the program to use the result from HumanAgency to pass it to HumanConsoleWriter which then prints the details of the found people.
